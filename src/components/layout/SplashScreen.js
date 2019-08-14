@@ -8,9 +8,9 @@ const SplashScreen = props => {
 
   return (
     <div className='splash-body'>
-      <h1>Splash Screen</h1>
+      <h1>In The Peak</h1>
       <button className='splash-cta' onClick={handleOnClick}>
-        Click
+        Enter
       </button>
     </div>
   );

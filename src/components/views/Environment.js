@@ -1,11 +1,11 @@
 import React from 'react';
 
-const About = () => {
+const Environment = () => {
   return (
     <div className='container'>
-      <h2>About</h2>
+      <h2>Environment</h2>
     </div>
   );
 };
 
-export default About;
+export default Environment;

@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Home = () => {
-    return(
-        <div>
-            <br/>
+  return (
+    <div className='container'>
+      <h2>Home</h2>
+      {/* <br/>
             <h5>Git URL</h5>
             <ul>
                 <li>
@@ -27,11 +28,9 @@ const Home = () => {
             <h5>Notes:</h5>
             <ul>
                 <li>no persistent state</li>
-            </ul>
-        </div>
-
-
-    )
-}
+            </ul> */}
+    </div>
+  );
+};
 
 export default Home;

@@ -35,7 +35,7 @@ class Navigation extends Component {
           className='navbar navbar-expand-lg navbar-dark navbar-background'
           expand='md'
         >
-          <NavbarBrand href='/'>React Template</NavbarBrand>
+          <NavbarBrand href='/'>In The Peak</NavbarBrand>
           <NavbarToggler onClick={this.toggleBurgerMenu} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className='ml-auto' navbar>
@@ -61,6 +61,78 @@ class Navigation extends Component {
                   to='/about'
                 >
                   About
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className='nav-link'
+                  onClick={e => {
+                    this.closeBurgerMenu(e);
+                  }}
+                  exact
+                  to='/news'
+                >
+                  News
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className='nav-link'
+                  onClick={e => {
+                    this.closeBurgerMenu(e);
+                  }}
+                  exact
+                  to='/wildlife'
+                >
+                  Wildlife
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className='nav-link'
+                  onClick={e => {
+                    this.closeBurgerMenu(e);
+                  }}
+                  exact
+                  to='/activities'
+                >
+                  Activities
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className='nav-link'
+                  onClick={e => {
+                    this.closeBurgerMenu(e);
+                  }}
+                  exact
+                  to='/gastronomy'
+                >
+                  Gastronomy
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className='nav-link'
+                  onClick={e => {
+                    this.closeBurgerMenu(e);
+                  }}
+                  exact
+                  to='/environment'
+                >
+                  Environment
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className='nav-link'
+                  onClick={e => {
+                    this.closeBurgerMenu(e);
+                  }}
+                  exact
+                  to='/people'
+                >
+                  People
                 </NavLink>
               </NavItem>
               <NavItem>
