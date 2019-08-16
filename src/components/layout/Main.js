@@ -6,6 +6,8 @@ import Home from '../views/Home';
 import About from '../views/About';
 import News from '../views/News';
 import Wildlife from '../views/Wildlife';
+import WildlifeOwls from '../views/WildlifeOwls';
+import WildlifeRedDeer from '../views/WildlifeRedDeer';
 import Activities from '../views/Activities';
 import Gastronomy from '../views/Gastronomy';
 import Environment from '../views/Environment';
@@ -22,6 +24,12 @@ const Main = () => {
         <Route exact path='/about' component={About} />>
         <Route exact path='/news' component={News} />
         <Route exact path='/wildlife' component={Wildlife} />
+        <Route exact path='/wildlife/wildlife-owls' component={WildlifeOwls} />
+        <Route
+          exact
+          path='/wildlife/wildlife-red-deer'
+          component={WildlifeRedDeer}
+        />
         <Route exact path='/activities' component={Activities} />
         <Route exact path='/gastronomy' component={Gastronomy} />
         <Route exact path='/environment' component={Environment} />

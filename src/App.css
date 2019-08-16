@@ -38,7 +38,11 @@
   height: 100vh;
   color: rgba(255, 255, 255, 0.8);
   /* background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%); */
-  background-image: url(./Peak-District-small-2400x1361.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Peak-District-small-2400x1361.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,5 +61,16 @@
 
 .navbar-background,
 .footer-background {
-  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+  /* background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%); */
+  background: #636363; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a2ab58,
+    #636363
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a2ab58,
+    #636363
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

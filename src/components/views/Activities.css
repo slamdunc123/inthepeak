@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container-column-left {
+  width: 20%;
+  border: 1px dotted blue;
+}
+.flex-container-column-right {
+  width: 70%;
+  border: 1px dotted blue;
+}
