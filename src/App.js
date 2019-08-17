@@ -6,10 +6,10 @@ import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 // layout components
-import Footer from './components/layout/Footer';
-import Header from './components/layout/Header';
-import Main from './components/layout/Main';
-import SplashScreen from './components/layout/SplashScreen';
+import Footer from './components/layout/footer/Footer';
+import Header from './components/layout/header/Header';
+import Main from './components/layout/main/Main';
+import SplashScreen from './components/layout/splashScreen/SplashScreen';
 
 class App extends Component {
   state = {
@@ -23,12 +23,12 @@ class App extends Component {
   //   });
   // };
 
-  callBackSplash = splash => {
-    // receives callBack value from child SplashScreen.js callBack function: props.callBackSplash(false)
+  callBackSplash = bool => {
+    // receives callBack value of 'false' from child SplashScreen.js callBack function: props.callBackSplash(false)
     this.setState({
-      splash: splash // set state splash value to false
+      splash: bool // set state splash value to false
     });
-    console.log(splash);
+    console.log(bool);
   };
   render() {
     const { splash } = this.state;

@@ -1,8 +1,11 @@
 import React from 'react';
 
+// css
+import './Footer.css';
+
 // partial components
-import Copyright from '../partials/Copyright';
-import Social from '../partials/Social';
+import Copyright from '../../partials/copyright/Copyright';
+import Social from '../../partials/social/Social';
 
 const Footer = () => {
   return (

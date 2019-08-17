@@ -1,13 +1,26 @@
 .flex-container {
   display: flex;
-  justify-content: space-around;
 }
 
 .flex-container-column-left {
-  width: 20%;
-  border: 1px dotted blue;
+  flex: 1;
+  /* border: 1px dotted blue; */
+  order: 1;
+  margin: 5px;
 }
+
+/* .flex-container-column:nth-of-type(1) {
+  order: 1;
+} */
 .flex-container-column-right {
-  width: 70%;
-  border: 1px dotted blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 6;
+  margin: 5px;
+  /* border: 1px dotted blue; */
+}
+
+.card {
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
 }

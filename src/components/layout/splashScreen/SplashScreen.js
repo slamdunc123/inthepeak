@@ -1,5 +1,9 @@
 import React from 'react';
 
+// css
+
+import './SplashScreen.css';
+
 const SplashScreen = props => {
   // receive props from App.js (parent) in this case the callBackSplash method
   const handleOnClick = () => {

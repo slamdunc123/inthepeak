@@ -1,19 +1,24 @@
 import React from 'react';
+
+// css
+import './Main.css';
+
+// router
 import { Switch, Route } from 'react-router-dom';
 
 // view components
-import Home from '../views/Home';
-import About from '../views/About';
-import News from '../views/News';
-import Wildlife from '../views/Wildlife';
-import WildlifeOwls from '../views/WildlifeOwls';
-import WildlifeRedDeer from '../views/WildlifeRedDeer';
-import Activities from '../views/Activities';
-import Gastronomy from '../views/Gastronomy';
-import Environment from '../views/Environment';
-import People from '../views/People';
-import Contact from '../views/Contact';
-import Cities from '../views/Cities';
+import Home from '../../views/Home';
+import About from '../../views/about/About';
+import News from '../../views/News';
+import Wildlife from '../../views/Wildlife';
+import WildlifeOwls from '../../views/WildlifeOwls';
+import WildlifeRedDeer from '../../views/WildlifeRedDeer';
+import Activities from '../../views/Activities';
+import Gastronomy from '../../views/Gastronomy';
+import Environment from '../../views/Environment';
+import People from '../../views/People';
+import Contact from '../../views/Contact';
+import Cities from '../../views/Cities';
 
 const Main = () => {
   return (
