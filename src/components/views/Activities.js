@@ -4,7 +4,6 @@ import React from 'react';
 import './Activities.css';
 
 // components
-import DateTime from '../partials/dateTime/DateTime';
 
 const divStyle = {
   maxWidth: '100%'
