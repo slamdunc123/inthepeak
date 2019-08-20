@@ -4,8 +4,8 @@ import React from 'react';
 import './Footer.css';
 
 // partial components
-import Copyright from '../../partials/copyright/Copyright';
-import Social from '../../partials/social/Social';
+import Copyright from '../partials/Copyright';
+import Social from '../partials/Social';
 
 const Footer = () => {
   return (

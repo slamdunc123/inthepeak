@@ -3,7 +3,7 @@ import React from 'react';
 // css
 import './Header.css';
 
-import Navigation from '../../partials/navigation/Navigation';
+import Navigation from '../partials/Navigation';
 
 const Header = () => {
   return (

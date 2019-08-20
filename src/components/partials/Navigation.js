@@ -42,7 +42,7 @@ class Navigation extends Component {
           className='navbar navbar-expand-lg navbar-dark navbar-background'
           expand='md'
         >
-          <NavbarBrand href='/'>In The Peak</NavbarBrand>
+          <NavbarBrand href='/'>Rough Guide To Derbyshire</NavbarBrand>
           <NavbarToggler onClick={this.toggleBurgerMenu} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className='ml-auto' navbar>
@@ -93,33 +93,34 @@ class Navigation extends Component {
 
               {/* wildlife */}
 
-              <NavItem>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
-                    Wildlife
-                  </DropdownToggle>
-                  <DropdownMenu right>
-                    <NavLink
-                      className='nav-link'
-                      onClick={e => {
-                        this.closeBurgerMenu(e);
-                      }}
-                      to='/wildlife/wildlife-red-deer'
-                    >
-                      <DropdownItem>Red Deer</DropdownItem>
-                    </NavLink>
-                    <NavLink
-                      className='nav-link'
-                      onClick={e => {
-                        this.closeBurgerMenu(e);
-                      }}
-                      to='/wildlife/wildlife-owls'
-                    >
-                      <DropdownItem>Owls</DropdownItem>
-                    </NavLink>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
-              </NavItem>
+              {/* <NavItem> */}
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Wildlife
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <NavLink
+                    className='nav-link'
+                    onClick={e => {
+                      this.closeBurgerMenu(e);
+                    }}
+                    to='/wildlife/wildlife-red-deer'
+                  >
+                    <DropdownItem>Red Deer</DropdownItem>
+                  </NavLink>
+
+                  <NavLink
+                    className='nav-link'
+                    onClick={e => {
+                      this.closeBurgerMenu(e);
+                    }}
+                    to='/wildlife/wildlife-owls'
+                  >
+                    <DropdownItem>Owls</DropdownItem>
+                  </NavLink>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+              {/* </NavItem> */}
 
               {/* activities */}
 

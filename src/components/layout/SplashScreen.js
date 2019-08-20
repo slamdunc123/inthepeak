@@ -12,7 +12,7 @@ const SplashScreen = props => {
 
   return (
     <div className='splash-body'>
-      <h1>In The Peak</h1>
+      <h1>Rough Guide To Derbyshire</h1>
       <button className='splash-cta' onClick={handleOnClick}>
         Enter
       </button>
